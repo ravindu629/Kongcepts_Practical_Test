@@ -2,13 +2,15 @@ import React from "react";
 import "./Header.css";
 import Button from "@mui/material/Button";
 import ShoppingCartIcon from "@mui/icons-material/ShoppingCart";
+import SearchSection from "./SearchSection";
 
 export default function Header() {
-  const btnStyleBack = {
+  const cartIconStyle = {
     borderRadius: 35,
     borderColor: "white",
     color: "white",
     fontWeight: "bold",
+    fontSize: "110%",
   };
 
   return (
@@ -29,14 +31,15 @@ export default function Header() {
 
           <Button
             variant="outlined"
-            style={btnStyleBack}
+            style={cartIconStyle}
             size="large"
             endIcon={<ShoppingCartIcon />}
           >
             0 &nbsp;{" "}
           </Button>
         </div>
-        <hr style={{ height: "7px", color: "black" }} />
+        <hr style={{ height: "7px", color: "black", marginTop: "20px" }} />
+        <SearchSection />
       </div>
     </div>
   );
