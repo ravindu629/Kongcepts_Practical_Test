@@ -16,7 +16,7 @@ mongoose.connection.once("open", () => {
 });
 
 //import routes
-//app.use("/api/movies", require("./routes/Movie.route"));
+app.use("/api/events", require("./routes/Event.route"));
 
 app.get("/", (req, res) => {
   res.send("Api running");
