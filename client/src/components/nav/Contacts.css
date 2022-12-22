@@ -1,0 +1,27 @@
+.contacts {
+  background-color: black;
+  color: white;
+  padding: 1%;
+}
+
+.content-contacts {
+  padding: 0px 140px 0px 140px;
+}
+
+.contact {
+  display: inline;
+  margin-right: 3%;
+}
+
+.login {
+  display: inline;
+  float: right;
+}
+
+.signIn {
+  color: yellow;
+}
+
+.signOut {
+  color: yellow;
+}

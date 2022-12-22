@@ -1,0 +1,26 @@
+.header {
+  background-color: rgb(194, 92, 67);
+  color: white;
+  padding: 1%;
+}
+
+.content-header {
+  margin: 0px 140px 0px 140px;
+}
+
+.headerTitle {
+  display: inline;
+  font-size: 220%;
+}
+
+.headerSections {
+  float: right;
+  display: inline;
+}
+
+.headerSection {
+  display: inline;
+  margin-right: 30px;
+  font-weight: 600;
+  font-size: 130%;
+}
