@@ -1,0 +1,29 @@
+.content-subscribe {
+  padding: 0px 140px 0px 140px;
+}
+
+.liveSection {
+  text-align: center;
+  padding-top: 120px;
+  color: white;
+}
+
+.playIcon {
+  margin-bottom: 120px;
+}
+
+.subscribeSection {
+  text-align: center;
+  padding: 130px 0px 130px;
+  background-color: rgb(194, 92, 67);
+}
+
+.searchInput {
+  height: 50px;
+  width: 500px;
+  border-radius: 25px;
+  text-align: center;
+  font-size: 140%;
+  font-weight: bold;
+  background-color: rgb(231, 231, 195);
+}

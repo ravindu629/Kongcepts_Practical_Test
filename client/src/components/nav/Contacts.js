@@ -5,6 +5,8 @@ import CallIcon from "@mui/icons-material/Call";
 import EmailIcon from "@mui/icons-material/Email";
 import Header from "./Header";
 import AllEvents from "../events/AllEvents";
+import SubscribeSection from "./SubscribeSection";
+import Footer from "./Footer";
 
 export default function Contacts() {
   return (
@@ -32,6 +34,8 @@ export default function Contacts() {
       </div>
       <Header />
       <AllEvents />
+      <SubscribeSection />
+      <Footer />
     </div>
   );
 }
