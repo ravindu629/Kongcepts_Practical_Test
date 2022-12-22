@@ -15,8 +15,9 @@ mongoose.connection.once("open", () => {
   console.log("MongoDB Connected");
 });
 
-//import routes
+//import event routes and user routes
 app.use("/api/events", require("./routes/Event.route"));
+app.use("/api/users", require("./routes/User.route"));
 
 app.get("/", (req, res) => {
   res.send("Api running");
