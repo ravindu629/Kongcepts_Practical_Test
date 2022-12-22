@@ -4,6 +4,7 @@ import "./Contacts.css";
 import CallIcon from "@mui/icons-material/Call";
 import EmailIcon from "@mui/icons-material/Email";
 import Header from "./Header";
+import AllEvents from "../events/AllEvents";
 
 export default function Contacts() {
   return (
@@ -22,14 +23,15 @@ export default function Contacts() {
             <a href="/" className="signIn">
               SIGN IN
             </a>
-            &nbsp;|&nbsp;
-            <a href="/" className="signOut">
+            &nbsp;&nbsp; &nbsp;&nbsp;
+            <a href="/addUser" className="signUp">
               SIGN UP
             </a>
           </div>
         </div>
       </div>
       <Header />
+      <AllEvents />
     </div>
   );
 }

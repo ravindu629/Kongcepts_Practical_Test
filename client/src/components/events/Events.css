@@ -28,3 +28,66 @@
 .formBtn {
   margin-left: 3%;
 }
+
+.note {
+  background: rgb(134, 128, 126);
+  border-radius: 7px;
+  box-shadow: 0 2px 5px rgb(7, 7, 7);
+  padding: 10px;
+  width: 350px;
+  margin-right: 10px;
+  margin-bottom: 40px;
+  float: left;
+  height: 250px;
+  border: 3px solid orange;
+}
+
+.events {
+  color: white;
+  margin: 2%;
+  padding: 1%;
+  border: 2px solid;
+  border-radius: 25px;
+  border-color: orange;
+}
+
+.content-events {
+  padding: 0px 140px 0px 140px;
+}
+
+.firstTitle {
+  margin: 5px 0px 5px;
+  font-size: xx-large;
+}
+
+.firstContent {
+  font-size: larger;
+  display: inline;
+}
+
+.firstSection {
+  margin-right: 170px;
+  margin-bottom: 50px;
+}
+
+.firstEventBtn {
+  float: right;
+  margin-left: 100px;
+}
+
+.eventInfo {
+  padding: 10px;
+}
+
+.eventImg {
+  width: 25%;
+  float: left;
+}
+
+.eventData {
+  position: relative;
+  margin: 5% 5% 5% 30%;
+  border: 2px solid;
+  border-radius: 25px;
+  border-color: orange;
+}

@@ -1,0 +1,35 @@
+.formContent {
+  margin: 8% 20%;
+}
+
+.formBackground {
+  background-color: white;
+  border-radius: 1%;
+  padding: 3%;
+}
+
+.formHeader {
+  text-align: center;
+  font-size: xx-large;
+  font-weight: 600;
+  color: red;
+}
+
+.form-control {
+  border-radius: 25px;
+  text-align: center;
+}
+
+.formElement {
+  padding: 2%;
+  font-weight: 600;
+}
+
+.formBtn {
+  margin-left: 3%;
+}
+
+.formMessage {
+  text-align: center;
+  color: red;
+}

@@ -1,5 +1,4 @@
 .contacts {
-  background-color: black;
   color: white;
   padding: 1%;
 }
@@ -19,9 +18,13 @@
 }
 
 .signIn {
-  color: yellow;
+  color: orange;
+  display: inline;
+  font-size: larger;
 }
 
-.signOut {
-  color: yellow;
+.signUp {
+  color: orange;
+  display: inline;
+  font-size: larger;
 }
