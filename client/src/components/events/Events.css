@@ -3,9 +3,9 @@
 }
 
 .formBackground {
-  background-color: rgb(238, 209, 209);
   border-radius: 1%;
   padding: 3%;
+  background-color: white;
 }
 
 .formHeader {
